@@ -1,1 +1,1 @@
-activate CarND-Term1 & jupyter notebook Vehicle_Detection.ipynb
+activate CarND-Term1 & jupyter notebook tune_svm.ipynb

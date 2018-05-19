@@ -36,9 +36,9 @@ I then explored different color spaces and different `skimage.hog()` parameters 
 Here is an example using the `YUV` color space and HOG parameters of `orientations=11`, `pixels_per_cell=(16, 16)` and `cells_per_block=(2, 2)`:
 
 
-<img width="20%" height="90%" src="https://github.com/DongzhenHuangfu/CarND-Vehicle-Detection/raw/master/output_images/HOG_Y.jpg"/>
-<img width="20%" height="90%" src="https://github.com/DongzhenHuangfu/CarND-Vehicle-Detection/raw/master/output_images/HOG_U.jpg"/>
-<img width="20%" height="90%" src="https://github.com/DongzhenHuangfu/CarND-Vehicle-Detection/raw/master/output_images/HOG_V.jpg"/>
+<img width="160%" height="40%" src="https://github.com/DongzhenHuangfu/CarND-Vehicle-Detection/raw/master/output_images/HOG_Y.jpg"/>
+<img width="160%" height="40%" src="https://github.com/DongzhenHuangfu/CarND-Vehicle-Detection/raw/master/output_images/HOG_U.jpg"/>
+<img width="160%" height="40%" src="https://github.com/DongzhenHuangfu/CarND-Vehicle-Detection/raw/master/output_images/HOG_V.jpg"/>
 
 #### 2. How I settled on my final choice of HOG parameters.
 
@@ -87,12 +87,9 @@ Here's an example result showing the heatmap from a series of frames of video, t
 
 ### Here are six frames and their corresponding heatmaps:
 
-<img width="80%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Vehicle-Detection/raw/master/output_images/result_and_heat_test1.jpg"/>
-<img width="80%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Vehicle-Detection/raw/master/output_images/result_and_heat_test2.jpg"/>
-<img width="80%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Vehicle-Detection/raw/master/output_images/result_and_heat_test3.jpg"/>
-<img width="80%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Vehicle-Detection/raw/master/output_images/result_and_heat_test4.jpg"/>
-<img width="80%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Vehicle-Detection/raw/master/output_images/result_and_heat_test5.jpg"/>
-<img width="80%" height="30%" src="https://github.com/DongzhenHuangfu/CarND-Vehicle-Detection/raw/master/output_images/result_and_heat_test6.jpg"/>
+<img width="40%" height="40%" src="https://github.com/DongzhenHuangfu/CarND-Vehicle-Detection/raw/master/output_images/result_and_heat_test1.jpg"/> <img width="40%" height="40%" src="https://github.com/DongzhenHuangfu/CarND-Vehicle-Detection/raw/master/output_images/result_and_heat_test2.jpg"/>
+<img width="40%" height="40%" src="https://github.com/DongzhenHuangfu/CarND-Vehicle-Detection/raw/master/output_images/result_and_heat_test3.jpg"/> <img width="40%" height="40%" src="https://github.com/DongzhenHuangfu/CarND-Vehicle-Detection/raw/master/output_images/result_and_heat_test4.jpg"/>
+<img width="40%" height="40%" src="https://github.com/DongzhenHuangfu/CarND-Vehicle-Detection/raw/master/output_images/result_and_heat_test5.jpg"/> <img width="40%" height="40%" src="https://github.com/DongzhenHuangfu/CarND-Vehicle-Detection/raw/master/output_images/result_and_heat_test6.jpg"/>
 
 ### Here is the output of `scipy.ndimage.measurements.label()` on the integrated heatmap from all six frames:
 

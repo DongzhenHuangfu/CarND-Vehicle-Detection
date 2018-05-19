@@ -1,0 +1,1 @@
+activate CarND-Term1 & jupyter notebook process_video.ipynb

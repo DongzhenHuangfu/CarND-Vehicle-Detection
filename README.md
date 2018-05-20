@@ -2,7 +2,7 @@
 
 Click the pictures to see the final result of the videos.
 
-<a href="https://www.youtube.com/embed/D-bJ0YGx5p8" target="_blank"><img src="http://img.youtube.com/vi/D-bJ0YGx5p8/0.jpg" alt="Result of challenge video" width="420" height="236.25" border="10" /></a>
+<a href="https://www.youtube.com/embed/ujib8v05z40" target="_blank"><img src="http://img.youtube.com/vi/ujib8v05z40/0.jpg" alt="Result of challenge video" width="420" height="236.25" border="10" /></a>
 
 ---
 
@@ -54,7 +54,7 @@ I trained a linear SVM using `grid_search` in `sklearn`, at first I tried to exp
 
 I decided to search in the area where y pixels are in the range of 400-560, cause the other part of the pictures are not possible to appear a car.
 
-With lots of experiments I finally decided to use the scales of 1, 1.5, 1.7 and 2, the moving step is 2. There is the picture demonstrating the area and windows I used for searching.
+With lots of experiments I finally decided to use the scales of 1, 1.3, 1.5, 1.7 and 2, the moving step is 2. There is the picture demonstrating the area and windows I used for searching.
 
 <img width="80%" height="60%" src="https://github.com/DongzhenHuangfu/CarND-Vehicle-Detection/raw/master/output_images/sliding_windows.jpg"/>
 
@@ -72,7 +72,7 @@ Ultimately I searched on two scales using YUV 3-channel HOG features plus spatia
 ### Video Implementation
 
 #### 1. Result of the video
-Here's a [link to my video result](https://youtu.be/D-bJ0YGx5p8)
+Here's a [link to my video result](https://youtu.be/ujib8v05z40)
 
 
 #### 2. HowI implemented some kind of filter for false positives and some method for combining overlapping bounding boxes.
